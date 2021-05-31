@@ -1,0 +1,43 @@
+<!-- 
+    Project 1
+    Authors:    Pamela Pires dos Santos do O
+                Thalis Vicente Santos
+    Fanshawe College
+    INFO 3144 - Applied JavaScript
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Pamela and Thalis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="createSpreadSheet();">
+
+    <div>
+        <h3>INFO-3144-02-20F - Project 01</h3>
+                
+        <div>
+            <div>
+                    <input type="text" class="form-control" id="input-formula" disabled="disabled" placeholder=""
+                    onkeydown="inputValue(this);" />
+            </div>
+            <div>
+                <button id="clearAll" class="btn btn-block btn-default" id="btn-clear"
+                    onclick="clearAll();">Clear</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="spreadSheetTable"></div>
+
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>
