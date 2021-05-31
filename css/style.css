@@ -1,0 +1,58 @@
+/*
+PROJECT 01
+INFO-3144-02-20F Applied JavaScript Tools and Frameworks
+Pamela Pires Dos Santos - p_piresdossantosdoo
+Thalis Vicente Santos - t_vicentesantos
+
+*/
+
+body{
+    background-color: #c2c5c5;
+}
+h3{
+    font-weight: bolder;
+
+}
+
+.TableClass {
+    font-family: Verdana, Arial, Helvetica;
+    margin-left: 30px;
+    background-color: #ffffff;
+
+}
+
+.BaseColumn {
+    text-align: center;
+}
+
+.tableArea {
+  cursor: pointer;
+}
+
+.btn {
+    float: inline-end;
+    width: 200px;
+    margin: 5px 5px 5px 10px;
+    background-color: #89eefc;
+}
+
+.form-control{
+    width: 200px;
+    margin: 5px 5px 5px 10px;
+}
+
+th, td {
+    width: 80px;
+    height: 24px;
+    text-align: center;
+}
+
+div{
+    margin-left: 10px;
+}
+
+.cSelected{
+    background-color: #bdebf1
+}
+
+
